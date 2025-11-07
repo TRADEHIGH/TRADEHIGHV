@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages Hosting Check</title>
+    <!-- Using Tailwind for reliable styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+
+    <!-- Simple, bright visual confirmation -->
+    <div class="bg-white p-8 rounded-xl shadow-2xl max-w-md w-full text-center border-t-4 border-emerald-500">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-emerald-500 mx-auto mb-4" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+        </svg>
+
+        <h1 class="text-3xl font-extrabold text-gray-900 mb-2">HOSTING TEST SUCCESSFUL!</h1>
+        <p class="text-xl text-emerald-600 font-semibold mb-4">Your GitHub Pages Link is Active.</p>
+        <p class="text-gray-600">
+            If you see this page, your setup is correct. Now we need to fix your actual project's files.
+        </p>
+    </div>
+
+</body>
+</html>
+
